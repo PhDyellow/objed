@@ -689,6 +689,7 @@ To define new objects see `objed-define-object'."
   ("o" . objed-expand-context)
   ("p" . objed-paragraph-object)
   ("q" . objed-textblock-object)
+  ("r" . objed-parens-object) ;; PhDyellow addition: Not restricted to sibling parens, but cannot move parens safely
   ("s" . objed-string-object)
   ("t" . objed-tag-object)
   ("u" . objed-url-object)
