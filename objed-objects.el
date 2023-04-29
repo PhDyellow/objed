@@ -2989,7 +2989,7 @@ non-nil the indentation block can contain empty lines."
   (when (re-search-forward "(\\|\\[\\|{" nil t)
     (forward-char -1))
   :try-prev
-  (when (re-search-backward "(\\|\\[\\|{" nil t)))
+  (re-search-backward "(\\|\\[\\|{" nil t))
 
 (provide 'objed-objects)
 ;;; objed-objects.el ends here
