@@ -2948,7 +2948,7 @@ non-nil the indentation block can contain empty lines."
 ;; PhDyellow addition
 (objed-define-object
     nil ;;make available for all packages
-    parens ;; a parens object 
+    parens ;; a parens object
   ;;goal is to make a text object that can jump to ANY parenthesis pair. The built-in brakcets can only select the current bracket pair you are in, or siblings of equal depth.
   ;;much of this is copied from the brackets code, only the sections marked are edited
   :atp  (unless (objed--in-string-or-comment-p)
